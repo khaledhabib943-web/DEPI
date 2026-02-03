@@ -1,0 +1,25 @@
+3) What Happens If the User Enters a Value Outside 1–7?
+
+Answer:
+
+The program will successfully compile and run, but:
+
+If the user enters a value outside the defined enum range (e.g., 8 or 0), no runtime exception is thrown.
+
+The value will be cast to the enum, but it will not correspond to a named value.
+
+Output will display the numeric value instead of a valid day name.
+
+Example
+Input: 8
+Output: Day is: 8
+
+Important Note
+
+To prevent this issue, input validation should be added using:
+
+Range checking (1–7)
+
+Enum.IsDefined()
+
+This ensures that only valid enum values are accepted and improves program reliability.
