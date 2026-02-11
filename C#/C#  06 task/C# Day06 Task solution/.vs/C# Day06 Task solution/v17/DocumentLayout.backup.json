@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\Desktop files\\c# tasks\\DEPI\\C#\\C#  06 task\\C# Day06 Task solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{690D2C4D-E927-43D7-975D-8F3977252943}|C# Day06 Task\\C# Day06 Task.csproj|c:\\users\\user\\onedrive\\desktop\\desktop files\\c# tasks\\depi\\c#\\c#  06 task\\c# day06 task solution\\c# day06 task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690D2C4D-E927-43D7-975D-8F3977252943}|C# Day06 Task\\C# Day06 Task.csproj|solutionrelative:c# day06 task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Desktop files\\c# tasks\\DEPI\\C#\\C#  06 task\\C# Day06 Task solution\\C# Day06 Task\\Program.cs",
+              "RelativeDocumentMoniker": "C# Day06 Task\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Desktop files\\c# tasks\\DEPI\\C#\\C#  06 task\\C# Day06 Task solution\\C# Day06 Task\\Program.cs",
+              "RelativeToolTip": "C# Day06 Task\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T20:20:53.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

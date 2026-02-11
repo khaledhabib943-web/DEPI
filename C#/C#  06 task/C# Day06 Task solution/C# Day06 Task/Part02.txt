@@ -1,0 +1,116 @@
+﻿) What is a Copy Constructor?
+Definition
+
+A copy constructor is a constructor that creates a new object by copying the values of another object of the same type.
+
+In C#
+
+C# does not provide built-in copy constructors like C++.
+
+Developers implement them manually using a constructor that takes an object of the same type as a parameter.
+
+Example
+class Employee
+{
+    public int Id;
+    public string Name;
+
+    // Normal constructor
+    public Employee(int id, string name)
+    {
+        Id = id;
+        Name = name;
+    }
+
+    // Copy constructor
+    public Employee(Employee other)
+    {
+        Id = other.Id;
+        Name = other.Name;
+    }
+}
+
+Why use a copy constructor?
+
+To create independent copies of objects
+
+To avoid reference sharing issues
+
+To support safe cloning of data
+
+
+----------------------------------------------------------------------------------------
+3) What is an Indexer? When Is It Used? (Business Use Cases)
+Definition
+
+An Indexer allows an object to be accessed like an array using square brackets [].
+
+Example
+class EmployeeCollection
+{
+    private Employee[] employees = new Employee[10];
+
+    public Employee this[int index]
+    {
+        get { return employees[index]; }
+        set { employees[index] = value; }
+    }
+}
+
+When Do We Use Indexers?
+
+When a class represents a collection
+
+When data should be accessed using keys or indexes
+
+To improve readability and usability
+
+Business Use Cases
+
+HR systems accessing employees by ID
+
+Banking systems retrieving accounts by account number
+
+Inventory systems accessing products by SKU
+
+Configuration systems accessing values by key
+
+Why Indexers Matter in Business Software
+
+Cleaner API design
+
+Reduced complexity for consumers of the class
+
+More intuitive data access patterns
+----------------------------------------------------------------------------
+
+4) Summary: Keywords Learned in the Last Lecture
+Core Keywords & Concepts
+
+Struct vs Class
+
+Value Type vs Reference Type
+
+Constructor
+
+Default Constructor
+
+Parameterized Constructor
+
+Copy Constructor
+
+Constructor Overloading
+
+Access Modifiers (private, public, internal)
+
+Encapsulation
+
+Properties (Get / Set)
+
+ToString() Override
+
+Indexer
+
+Data Validation
+
+Object Initialization
