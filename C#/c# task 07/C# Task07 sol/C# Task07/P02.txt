@@ -1,0 +1,216 @@
+﻿Q1: What is the Difference Between Class and Struct in C#?
+
+في لغة C#، كلٌّ من Class و Struct يُستخدمان لإنشاء أنواع مخصصة (Custom Types)، لكن بينهما اختلافات جوهرية تؤثر بشكل مباشر على الأداء، السلوك، وإدارة الذاكرة.
+
+1️⃣ Memory Allocation
+
+Class
+
+Reference Type
+
+يتم تخزين الكائن في Heap
+
+المتغير يحتوي على Reference (عنوان) للكائن
+
+Struct
+
+Value Type
+
+يتم تخزين البيانات مباشرة في Stack (أو Inline داخل الكائن الحاوي)
+
+المتغير يحتوي على القيمة نفسها
+
+📌 الأثر العملي:
+تمرير الـ struct كـ parameter يؤدي إلى نسخ القيمة بالكامل، بينما الـ class يمرر المرجع فقط.
+
+2️⃣ Performance
+
+Struct
+
+أسرع في الإنشاء
+
+مناسب للكائنات الصغيرة والخفيفة
+
+يقلل الضغط على Garbage Collector
+
+Class
+
+أبطأ نسبيًا بسبب Heap allocation
+
+مناسب للكائنات الكبيرة والمعقدة
+
+📌 لذلك تستخدم struct غالبًا في:
+
+Point
+
+DateTime
+
+Coordinates
+
+3️⃣ Inheritance
+
+Class
+
+تدعم Inheritance
+
+يمكن أن ترث من class أخرى وتُنشئ hierarchies
+
+Struct
+
+لا تدعم الوراثة
+
+ترث فقط من System.ValueType
+
+📌 هذا يجعل struct أقل مرونة في التصميم المعقد.
+
+4️⃣ Nullability
+
+Class
+
+يمكن أن تكون null
+
+Struct
+
+لا يمكن أن تكون null
+
+إلا باستخدام Nullable<T> أو T?
+
+5️⃣ Constructors
+
+Class
+
+يمكن تعريف Default و Parameterized constructors بحرية
+
+Struct
+
+لا يمكن تعريف Default constructor بدون parameters
+
+يتم إنشاء Default constructor تلقائيًا
+
+6️⃣ Use Cases
+استخدم Class عندما	استخدم Struct عندما
+كائن معقد	كائن بسيط
+يحتاج inheritance	لا يحتاج inheritance
+له lifecycle طويل	بيانات مؤقتة
+له identity	مجرد value
+Summary Table
+Aspect	Class	Struct
+Type	Reference	Value
+Memory	Heap	Stack
+Inheritance	Yes	No
+Nullable	Yes	No
+Performance	أقل	أعلى
+Q2: Relationships Between Classes (Other Than Inheritance)
+
+بجانب Inheritance (is-a)، هناك عدة علاقات أساسية تُستخدم في تصميم الأنظمة وفق مبادئ Object-Oriented Design و UML.
+
+1️⃣ Association
+التعريف:
+
+علاقة عامة بين كائنين حيث أحدهما يستخدم الآخر بدون امتلاك أو تحكم في دورة حياته.
+
+العلاقة ضعيفة
+
+كلا الكائنين يمكن أن يعيشا مستقلين
+
+مثال:
+class Teacher
+{
+    public void Teach(Student s)
+    {
+        Console.WriteLine("Teaching student");
+    }
+}
+
+
+📌 الطالب يمكن أن يوجد بدون المدرس والعكس صحيح.
+
+2️⃣ Aggregation (Has-a – Weak)
+التعريف:
+
+شكل خاص من Association حيث:
+
+الكائن يحتوي على كائن آخر
+
+لكن الكائن المحتوى يمكن أن يوجد مستقلًا
+
+مثال:
+class Department
+{
+    public List<Employee> Employees { get; set; }
+}
+
+
+📌 إذا تم حذف Department، يمكن للـ Employees أن يظلوا موجودين.
+
+3️⃣ Composition (Has-a – Strong)
+التعريف:
+
+أقوى أنواع العلاقات:
+
+الكائن المحتوى لا يمكن أن يوجد بدون الكائن الحاوي
+
+دورة حياة مرتبطة بالكامل
+
+مثال:
+class House
+{
+    private Room room;
+
+    public House()
+    {
+        room = new Room();
+    }
+}
+
+
+📌 إذا تم حذف House، يتم حذف Room تلقائيًا.
+
+4️⃣ Dependency (Uses-a)
+التعريف:
+
+علاقة مؤقتة
+
+كلاس يعتمد على آخر داخل Method فقط
+
+مثال:
+class Printer
+{
+    public void Print(Report report)
+    {
+        Console.WriteLine("Printing report");
+    }
+}
+
+
+📌 Report لا يُخزن كـ property.
+
+5️⃣ Interface Implementation
+التعريف:
+
+علاقة تعاقدية:
+
+الكلاس يلتزم بتنفيذ interface
+
+بدون فرض كيفية التنفيذ
+
+مثال:
+interface ILogger
+{
+    void Log();
+}
+
+class FileLogger : ILogger
+{
+    public void Log()
+    {
+        Console.WriteLine("Logging to file");
+    }
+}
+
+
+📌 هذه العلاقة أساس:
+
+Polymorphism
+
+Loose Coupling
