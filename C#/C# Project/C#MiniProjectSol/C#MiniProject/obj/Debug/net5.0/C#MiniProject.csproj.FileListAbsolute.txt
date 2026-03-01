@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\bin\Debug\net5.0\C#MiniProject.exe
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\bin\Debug\net5.0\C#MiniProject.deps.json
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\bin\Debug\net5.0\C#MiniProject.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\bin\Debug\net5.0\C#MiniProject.runtimeconfig.dev.json
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\bin\Debug\net5.0\C#MiniProject.dll
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\bin\Debug\net5.0\C#MiniProject.pdb
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.dll
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\refint\C#MiniProject.dll
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.pdb
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\C#MiniProject.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\C# Project\C#MiniProjectSol\C#MiniProject\obj\Debug\net5.0\ref\C#MiniProject.dll

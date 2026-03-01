@@ -1,0 +1,40 @@
+----------------------------------------
+Logged At : 3/1/2026 9:33:36 PM
+Type      : TrueFalseQuestion
+Header    : Q1
+Body      : C# supports multiple inheritance through classes.
+Marks     : 2
+Answers   :
+  - True | Correct: False
+  - False | Correct: True
+----------------------------------------
+Logged At : 3/1/2026 9:33:36 PM
+Type      : ChooseOneQuestion
+Header    : Q2
+Body      : Which keyword is used to inherit a class in C#?
+Marks     : 3
+Answers   :
+  - extends | Correct: False
+  - : | Correct: True
+  - inherits | Correct: False
+  - base | Correct: False
+----------------------------------------
+Logged At : 3/1/2026 9:34:55 PM
+Type      : TrueFalseQuestion
+Header    : Q1
+Body      : C# supports multiple inheritance through classes.
+Marks     : 2
+Answers   :
+  - True | Correct: False
+  - False | Correct: True
+----------------------------------------
+Logged At : 3/1/2026 9:34:55 PM
+Type      : ChooseOneQuestion
+Header    : Q2
+Body      : Which keyword is used to inherit a class in C#?
+Marks     : 3
+Answers   :
+  - extends | Correct: False
+  - : | Correct: True
+  - inherits | Correct: False
+  - base | Correct: False

@@ -1,0 +1,22 @@
+----------------------------------------
+Logged At : 3/1/2026 9:33:36 PM
+Type      : ChooseAllQuestion
+Header    : Q1
+Body      : Which of the following are OOP pillars?
+Marks     : 4
+Answers   :
+  - Encapsulation | Correct: True
+  - Compilation | Correct: False
+  - Inheritance | Correct: True
+  - Polymorphism | Correct: True
+  - Serialization | Correct: False
+  - Abstraction | Correct: True
+----------------------------------------
+Logged At : 3/1/2026 9:33:36 PM
+Type      : TrueFalseQuestion
+Header    : Q2
+Body      : Interfaces can contain method implementations in C# 8+.
+Marks     : 2
+Answers   :
+  - True | Correct: True
+  - False | Correct: False
